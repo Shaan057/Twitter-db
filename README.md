@@ -1,8 +1,8 @@
 # Twitter
 
-Given an `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
+Includes an `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
 
-Write APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
+Contains APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
 
 **User Table**
 
@@ -206,7 +206,7 @@ Here, if user1 follows user2 then,
 
 ### Authentication with JWT Token
 
-Write a middleware to authenticate the JWT token.
+Middleware to authenticate the JWT token.
 
 - **Scenario 1**
 
@@ -225,7 +225,7 @@ Write a middleware to authenticate the JWT token.
       ```
 
 - **Scenario 2**
-  - After successful verification of JWT token, proceed to next middleware or handler
+  - After successful verification of JWT token, proceeds to next middleware or handler
 
 </Section>
 
@@ -334,7 +334,7 @@ Returns the list of all names of people who follows the user
 
   - **Description**:
 
-    If the user requests a tweet of the user he is following, return the tweet, likes count, replies count and date-time
+    If the user requests a tweet of the user he is following, returns the tweet, likes count, replies count and date-time
 
   - **Response**
     ```
@@ -415,7 +415,7 @@ Returns the list of all names of people who follows the user
 
   - **Description**:
 
-    If the user requests a tweet of a user he is following, return the list of replies.
+    If the user requests a tweet of a user he is following, returns the list of replies.
 
   - **Response**
 
@@ -525,10 +525,3 @@ Created a Tweet
 
 </Section>
 
-<br/>
-
-Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
